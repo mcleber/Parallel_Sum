@@ -95,7 +95,7 @@ int main()
 			}
 
 			EndTime = ClockT::now();
-     		Elapsed = EndTime - StartTime;
+     			Elapsed = EndTime - StartTime;
 			
 
 			std::cout << "Sum : " << Sum << "  |  Threads : " << NumThreads << " - Time: " << duration_cast<milliseconds>(Elapsed).count() << " ms" << std::endl;
