@@ -1,4 +1,4 @@
 # Parallel-Sum
 This code is a study on parallel programming.
 
-When running the program it will create an array with 380 million random integers ranging from 0 to 100.
+The program will create an array with 380 million integer elements ranging from 0 to 100.  Then it will add the elements in a serial and parallel way.
